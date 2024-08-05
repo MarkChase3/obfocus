@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+</head>
+<body>
+	<div id="main">
+		<div id="left">
+			<div class="timer">25:00</div>
+		</div>
+		<div id="right">
+			<ul class="missions">
+				<li><span class="left-align">EXATAS 1</span><span class="right-align"><span></li>
+				<li><span class="left-align">EXATAS 2</span><span class="right-align"><span></li>
+				<li><span class="left-align">EXATAS 3</span><span class="right-align"><span></li>
+				<li><span class="left-align">EXATAS 4</span><span class="right-align"><span></li>
+				<li><span class="left-align">HUMANAS 1</span><span class="right-align"><span></li>
+				<li><span class="left-align">HUMANAS 2</span><span class="right-align"><span></li>
+				<li><span class="left-align">HUMANAS 3</span><span class="right-align"><span></li>
+				<li><span class="left-align">HUMANAS 4</span><span class="right-align"><span></li>
+			</ul>
+			<ul class="exam" style="display: none;">
+				<li>
+					<div class="header-question">
+						<h1 class="source header-question-parts"></h1>
+						<p class="header-question-parts"> Marcar para revisão: </p>
+						<input type="checkbox" class="hard-check header-question-parts">
+						<br>
+						<p class="header-question-parts"> Marcar como resolvido : </p>
+						<input type="checkbox" class="solved-check header-question-parts">
+						<br>
+						<p class="header-question-parts"> Mostrar solução : </p>
+						<input type="checkbox" class="show-solution-check header-question-parts">
+						<span class="solution header-question-parts" hidden=true>
+						</span>
+					</div>
+					<div class="question"></div>
+				</li>
+			</ul>
+			<button class="exam to-main-menu" style="display: none;">FINALIZAR</button>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

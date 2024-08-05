@@ -1,0 +1,41 @@
+	[
+		{
+			"source": "Questão 1 - OBM Nível 1 2023",
+			"question": "1. Arnaldo e Bernaldo estão jogando tênis de mesa. Eles decidem fazer uma brincadeira usando os pontos do jogo e algumas jujubas. Ambos iniciam com 300 jujubas cada um. Após cada ponto, se Arnaldo perde, ele dá 2 jujubas para Bernaldo. Se ele ganha o ponto, recebe 3 jujubas de Bernaldo. (Parece injusto, né. Mas é assim.). Eles disputaram 100 pontos no total.\na) Supondo que Arnaldo ganhe 39 pontos e perca os outros, com quantas jujubas cada um terminará a brincadeira?\nb) Se ambos acabarem a brincadeira com a quantidade inicial de 300 jujubas cada um, quantas partidas Arnaldo terá vencido?\nc) É possível que Arnaldo termine com exatamente 301 jujubas? \nLembre-se de que você deve justificar todas as suas respostas.",
+			"solution": "Solução de Luiza Lanza
+									item a)
+									A quantidade de jujubas dos dois garotos somadas é sempre constante e igual a 300 + 300 = 600 (quantidade inicial de jujubas de cada um).
+									Como Arnoldo ganhou 39 pontos, ele perdeu 100 − 39 = 61 pontos. Seguindo as regras do jogo, ao final ele teré 300 − 61 · 2 + 39 · 3 = 295 jujubas.
+									Logo, Bernaldo terá no final 600 − 295 = 305 jujubas.
+			
+									item b)
+									Seja o número de partidas que Arnaldo ganhou igual a x. Logo, ele perdeu 100 − x partidas. Assim, o saldo final de jujubas do Arnaldo é:
+									300 − 2 * (100 − x) + 3 * x = 300
+									300 − 200 + 2x + 3x = 300
+									5x = 200 ⇒ x = 40
+									Logo, Arnaldo ter´a vencido 40 partidas.
+									
+									item c)
+									Suponha que é possível, e para esse caso Arnaldo vence y partidas. Assim, o saldo final de jujubas do Arnaldo ´e:
+									300 − 2 * (100 − y) + 3 * y = 301
+									300 − 200 + 2y + 3y = 301
+									5y = 201 ⇒ y = 40,2
+									Logo, não é possível que Arnaldo termine com 301 jujubas, pois para isso deveria vencer 40,2 partidas, e o número de partidas vencidas é sempre inteiro."
+		},
+		{
+			"source": "Questão 2 - OBM Nível 1 2023",
+			"question": " 2. A figura a seguir mostra um tabuleiro 6 × 9 dividido em quadradinhos 1 × 1 que deve ser coberto com peças 1×3 na horizontal ou na vertical de modo que cada peça cubra exatamente 3 quadradinhos. Já foram colocadas 4 peças na horizontal e 2 na vertical (as peças estão representadas de maneira simplificada).\n!(2-obm-nivel1-2023-1.png)\n Quantas peças são necessárias para completar a cobertura acima?\nb) Existe um quadradinho marcado com a letra X. Só existe uma posição possível de uma peça 1 × 3 para cobrir esse quadradinho de modo que seja possível completar o desenho e cobrir o tabuleiro totalmente. Indique onde essa peça deve ser colocada e explique o porquê dela ser a única possibilidade.\nc) Existem quantas maneiras diferentes de completar a cobertura acima?"
+		},
+		{
+			"source": "Questão 3 - OBQ Modalidade A Fase 3 2023",
+			"question": "1. Em um laboratório de química um estudante determinou a densidade de três líquidos distintos e imiscíveis entre si. Para cada líquido ele fez o seguinte procedimento: \n(1) mediu a massa de um béquer usando uma balança semianalítica;\n(2) mediu um determinado volume do líquido usando uma pipeta volumétrica;\n(3) mediu a massa do sistema (béquer + líquido) usando a mesma balança.\nOs dados obtidos pelo estudante constam no quadro abaixo. !(1-obq-modalidadea-fase3-2023-1.png)\nEm relação ao experimento realizado, é correto afirmar que:\na) o líquido 1 é menos denso que o líquido 2\nb) o líquido 3 é menos denso que o líquido 2\nc) em uma mistura dos três líquidos, o líquido 1 deve permanecer na parte inferior da mistura.\nd) em uma mistura dos líquidos 2 e 3, o líquido 2 deve permanecer na parte inferior da mistura.\ne) em uma mistura dos líquidos 1 e 3, o líquido 3 deve permanecer na parte inferior da mistura."
+		},
+		{
+			"source": "Questão 4 - OBQ Modalidade A Fase 3 2023",
+			"question": "2. Uma solução aquosa de glicose (C6H12O6) possui fração mássica de 30,00 % e densidade igual a 1,1246 g/mL. Indique qual deve ser a provável temperatura de ebulição (em oC) dessa solução.\nDados: Para a água, 𝐾𝑒 = 0,512 oC kg mol–1 e temperatura de ebulição igual a 100,0 oC\na) 98,78\nb) 99,04\nc) 101,22\nd) 100,96\ne) 103,20"
+		},
+		{
+			"source": "Questão 5 - OBF Nível 1 Fase 3 2020",
+			"question": "1. Uma ducha com água aquecida eletricamente, de potência 4,20 kW, ou seja, que utiliza energia elétrica a uma taxa 4,20 kJ por segundo, liga automaticamente quando a torneira é aberta permitindo uma vazão mínima de 3,00 litros de água por minuto. A partir daí, à medida que a torneira é aberta para permitir vazões maiores, o aquecedor elétrico permanece operando à mesma potência. A vazão máxima desta ducha é de 6,60 litros de água por minuto.\n(a) Qual a temperatura máxima possível da água liberada pela ducha em um dia de inverno, em ◦C, no qual a água que entra na ducha está a 15,0 ◦C?\n(b) Se a ducha está ligada, qual a temperatura mínima possível da água liberada em um dia de verão, em ◦C, no qual a água que entra na ducha está a 24,0 ◦C? "
+		}
+	]
